@@ -1,0 +1,15 @@
+{
+  "name": "accounts_api",
+  "version": "1.0.0",
+  "description": "This project is a simple portfolio project witch is a CRUD of accounts using SOLID principles and some other Design Patterns.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "SOLID",
+    "CRUD",
+    "portfolio"
+  ],
+  "author": "Allan Rodrigues",
+  "license": "ISC"
+}
