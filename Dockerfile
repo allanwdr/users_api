@@ -1,0 +1,6 @@
+FROM node:16
+
+ENV PORT=3000
+
+EXPOSE $PORT:3000
+

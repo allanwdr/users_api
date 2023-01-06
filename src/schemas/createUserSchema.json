@@ -1,0 +1,100 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "createdDate": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "motherName": {
+            "type": "string"
+        },
+        "fatherName": {
+            "type": "string"
+        },
+        "document": {
+            "type": "string"
+        },
+        "gender": {
+            "type": "string"
+        },
+        "birthDate": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        },
+        "phone": {
+            "type": "object",
+            "properties": {
+                "areaCode": {
+                    "type": "string"
+                },
+                "number": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "areaCode",
+                "number"
+            ]
+        },
+        "address": {
+            "type": "object",
+            "properties": {
+                "zipCode": {
+                    "type": "string"
+                },
+                "street": {
+                    "type": "string"
+                },
+                "number": {
+                    "type": "string"
+                },
+                "complement": {
+                    "type": "string"
+                },
+                "neiborhood": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+                "country": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "zipCode",
+                "street",
+                "number",
+                "complement",
+                "neiborhood",
+                "city",
+                "state",
+                "country"
+            ]
+        }
+    },
+    "required": [
+        "createdDate",
+        "name",
+        "motherName",
+        "fatherName",
+        "document",
+        "gender",
+        "birthDate",
+        "email",
+        "status",
+        "phone",
+        "address"
+    ]
+}

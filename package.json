@@ -2,7 +2,7 @@
   "name": "accounts_api",
   "version": "1.0.0",
   "description": "This project is a simple portfolio project witch is a CRUD of accounts using SOLID principles and some other Design Patterns.",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "start": "tsnd --transpile-only --respawn --inspect=4321 --project tsconfig.json src/server.ts",
     "compile": "tsc"
